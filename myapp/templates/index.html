@@ -1,3 +1,9 @@
-<h1>{{ title }}</h1>
+{% extends 'layouts/base.html' %} 
 
-<p>{% lorem 1 b random %}</p>
+{% block content %}
+
+    <h1>{{ title }}</h1>
+
+    <p>{% lorem 1 b random %}</p>
+
+{% endblock content %}
